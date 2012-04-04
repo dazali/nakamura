@@ -94,7 +94,7 @@ public class CLEVirtualToolDataProvider implements VirtualToolDataProvider {
   protected static final String LTI_DEBUG_LOCK = "sakai.cle.basiclti.debug.lock";
 
   @Property(value = { "sakai.gradebook.gwt.rpc", "sakai.assignment.grades",
-      "sakai.samigo", "sakai.schedule", "sakai.announcements", "sakai.postem",
+      "sakai.samigo", "sakai.forum", "sakai.schedule", "sakai.announcements", "sakai.postem",
       "sakai.profile2", "sakai.profile", "sakai.chat", "sakai.resources",
       "sakai.dropbox", "sakai.rwiki", "sakai.forums", "sakai.gradebook.tool",
       "sakai.mailbox", "sakai.singleuser", "sakai.messages", "sakai.site.roster",

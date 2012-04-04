@@ -256,7 +256,7 @@ else
     echo "org.sakaiproject.hybrid.util.TrustedLoginFilter.safeHosts=localhost;127.0.0.1;0:0:0:0:0:0:0:1%0;129.79.26.127" >> sakai2-demo/sakai/sakai.properties
     # enabled Basic LTI provider
     echo "basiclti.provider.enabled=true" >> sakai2-demo/sakai/sakai.properties
-    echo "basiclti.provider.allowedtools=sakai.forums:sakai.messages:sakai.synoptic.messagecenter:sakai.poll:sakai.profile:sakai.profile2:sakai.announcements:sakai.synoptic.announcement:sakai.assignment.grades:sakai.summary.calendar:sakai.schedule:sakai.chat:sakai.dropbox:sakai.resources:sakai.gradebook.tool:sakai.help:sakai.mailbox:sakai.news:sakai.podcasts:sakai.postem:sakai.site.roster:sakai.rwiki:sakai.syllabus:sakai.singleuser:sakai.samigo:sakai.sitestats" >> sakai2-demo/sakai/sakai.properties
+    echo "basiclti.provider.allowedtools=sakai.forums:sakai.messages:sakai.synoptic.messagecenter:sakai.poll:sakai.profile:sakai.profile2:sakai.announcements:sakai.synoptic.announcement:sakai.assignment.grades:sakai.summary.calendar:sakai.schedule:sakai.chat:sakai.dropbox:sakai.resources:sakai.gradebook.tool:sakai.help:sakai.mailbox:sakai.news:sakai.podcasts:sakai.postem:sakai.site.roster:sakai.rwiki:sakai.syllabus:sakai.singleuser:sakai.samigo:sakai.forum:sakai.sitestats" >> sakai2-demo/sakai/sakai.properties
     echo "basiclti.provider.12345.secret=secret" >> sakai2-demo/sakai/sakai.properties
     echo "webservices.allow=.+" >> sakai2-demo/sakai/sakai.properties
     # enable debugging for hybrid related code
